@@ -9,8 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
+        AppSideBarView()
+            .navigationTitle("CSM App")
+        //Text("Home")
+//        NavigationView {
+//            UsersListView()
+//        }
+        .frame(minWidth: 700, minHeight: 300)
     }
 }
 
